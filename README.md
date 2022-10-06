@@ -1,1 +1,3 @@
 Building a page with the API Rest of RICK & MORTY. Using Hooks, ReactRouterDOM, functionalComponents and others sources...
+
+Combining HTML, CSS & JS
