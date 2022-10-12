@@ -5,14 +5,13 @@ import RickAndMortyService from '../services/RickAndMorty.service';
 export const Detail = () => {
 
   const [mascota, setmascota] = useState({});
-
   const { id } = useParams();
-
+  const { pathname } = useLocation();
 
   useEffect(() => {
     RickAndMortyService.getCharacterById(id)
       .then((data) => setmascota(data))
-  }, [id])
+  }, [])
 
   console.log(mascota);
 

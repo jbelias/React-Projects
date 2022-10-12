@@ -31,7 +31,7 @@ export const Navbar = () => {
 
         <div className="text-end">
           <button type="button" className="btn btn-outline-light me-2">Login</button>
-          <button type="button" className="btn btn-warning">Sign-up</button>
+          <button type="button" className="btn btn-warning"><Link to={"/user-form"} className="nav-link px-2 text-white"><strong>Sign-Up</strong></Link></button>
         </div>
       </div>
     </div>

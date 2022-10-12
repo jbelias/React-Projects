@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../../styleSheet/logo.css'
+import '../../styleSheet/footer.css'
 
 export const Footer = () => {
 
